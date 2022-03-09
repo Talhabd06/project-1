@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+</head>
+<body>
+  <div id="loader"></div>
+    <section id="header" class="header">
+        <nav>
+            <div class="logo" onclick="location.href='#';">Talha <span>Developer</span></div>
+            <i class="fal fa-xmark" id="close"></i>
+            <i class="fal fa-bars" id="menu"></i>
+            <ul id="nav">
+                <li><a href="#home" id="link" ><i class="fal fa-home"></i> Home</a></li>
+                <li><a href="#about" id="link" ><i class="fal fa-user"></i> About</a></li>
+                <li><a href="#services" id="link" ><i class="fal fa-mobile-android"></i> Services</a></li>
+                <li><a href="#skills" id="link" ><i class="fal fa-chart-pie"></i> Skills</a></li>
+                <li><a href="#contact" id="link" ><i class="fal fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+  <section id="home">
+    <h1>I'M a <span class="typed"></span></h1>
+
+    <a href="#about" class="fad fa-angle-double-up" id="up-icon"></a>
+  </section> 
+  <!--about start-->
+  <section class="about" id="about">
+    <div class="main" data-aos="fade-up">
+      <img src="src/img/img.jpg" alt="img">
+      <div class="text">
+        <h1>About Me</h1>
+        <h5>Developer <span>& Designer</span></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, ducimus, debitis ratione deserunt neque ipsum dolore suscipit facere. Doloremque ipsam ipsum necessitatibus sapiente id reprehenderit, iste laudantium molestias excepturi omnis.</p>
+        <a href="#contact"><button type="button">Hire Me</button></a>
+      </div>
+    </div>
+      </section>
+
+
+      <section class="services" id="services">
+          <h1>Our Services</h1>
+        <div class="sr_row">
+        <div class="service" onclick="location.href='services/Web_Design/index.html','_blank'">
+          <i class="fal fa-laptop-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service" onclick="location.href='services/Marketing/index.html','_blank'">
+          <i class="fal fa-chart-line"></i>
+          <h2>Marketing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service" onclick="location.href='services/Data_Analysis/index.html','_blank'">
+          <i class="fal fa-chart-pie"></i>
+          <h2>Data Analysis</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service" onclick="lokation.href='services/App_Development/index.html'">
+          <i class="fal fa-mobile-alt"></i>
+          <h2>App Development</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service" onclick="location.href='services/Payroll/index.html','_blank'">
+          <i class="fal fa-id-badge"></i>
+          <h2>Payroll</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service" onclick="location.href='services/Networking/index.html','_blank'">
+          <i class="fal fa-network-wired"></i>
+          <h2>Networking</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+        </div>
+      </section>
+<!--skills-->
+<section class="skills" id="skills">
+  <div class="wrapper">
+    <div class="shape-1"></div>
+    <div class="shape-2"></div>
+    <div class="sk-container">
+        <h1>My Skills </h1>
+        <div class="skill">
+            <div class="sk-details">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="bar">
+                <div id="html-bar"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="sk-details">
+                <span>CSS</span>
+                <span>75%</span>
+            </div>
+            <div class="bar">
+                <div id="css-bar"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="sk-details">
+                <span>Javascript</span>
+                <span>72%</span>
+            </div>
+            <div class="bar">
+                <div id="js-bar"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="sk-details">
+                <span>jQuery</span>
+                <span>68%</span>
+            </div>
+            <div class="bar">
+                <div id="jQuery-bar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+      <section class="contact" id="contact">
+       <div class="conteiner">
+           <div class="content">
+               <div class="left_side">
+                   <div class="address details">
+              <i class="fal fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text_one">Basundhara. A.K. Tower</div>
+              <div class="text_one">Dhaka 1311. Bangladesh </div>
+            </div>
+                <div class="address details">
+                <i class="fal fa-phone"></i>
+                <div class="topic">Phone</div>
+                <div class="text_one">+880 1795 238 840</div>
+                <div class="text_one">+880 1850 767 137</div>
+            </div>
+                  <div class="address details">
+                  <i class="fal fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text_one">Support@abutalhabd.xyz</div>
+                  <div class="text_one">Admin@abutalhabd.xyz</div>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <div class="topic_text">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officiis.</p>
+                    <form action="javascript:sendmail()" method="POST">
+               <div class="input_box">
+                <input type="text" placeholder="&#xf007; Your Full Name" id="name">
+               </div>
+
+               <div class="input_box">
+                <input type="email" placeholder="&#xf0e0; Your Email" id="email">
+               </div>
+
+               <div class="input_box message_box">
+                <textarea name="message" placeholder="&#xf27a; Your Message" id="message"></textarea>
+               </div>
+               <div class="button">
+               <button type="submit">SUBMIT <i class="fal fa-paper-plane"></i></button>
+               </div>
+                    </form>
+                </div>
+           </div>
+       </div>
+      </section>
+      <footer class="footer-distributed" id="footer-distributed">
+        <div class="footr-left">
+          <h3>Talha <span>Developer</span></h3>
+          <p class="footer-links">
+            <a href="#">Home</a>
+            |  
+            <a href="#">About</a>
+            |  
+            <a href="#">Services</a>
+            |  
+            <a href="#">Skills</a>
+            |  
+            <a href="#">Contact</a>  
+
+            <p class="footer-compeny-name">
+              Copyright &copy; 2021&mdash;<span id="Yr"></span> <strong>TalhaDeveloper</strong> All Right Reserved
+            </p>
+          </p>
+        </div>
+        <div class="footer-center">
+          <div>
+            <i class="fal fa-map-marker-alt"></i>
+            <p><span>Basundhara. A.K. Tower</span>
+              Dhaka 1311. Bangladesh </p>
+          </div>
+          <div>
+            <i class="fal fa-phone"></i>
+            <p><span>+880 1795 238 840</span>
+              +880 1850 767 137</p>
+          </div>
+          <div>
+            <i class="fal fa-envelope"></i>
+            <p><a href="mailto:Support@abutalhabd.xyz">Support@abutalhabd.xyz</a>
+              <a href="mailto:Admin@abutalhabd.xyz">Admin@abutalhabd.xyz</a>
+              </p>
+          </div>
+        </div>
+        <div class="footer-right">
+<p class="footer-company-about">
+  <span>About The Company</span>
+  <strong>Talha Developer</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ratione quasi esse iusto quae voluptatum!
+</p>
+<div class="footer-icons">
+  <a href="https://www.youtube.com/channel/UC3UKQwKHDBoseSPo5CzPVtw" class="fab fa-youtube"></a>
+  <a href="https://www.fb.com/siam.talhabd" class="fab fa-facebook"></a>
+  <a href="https://github.com/Talhabd06" class="fab fa-github"></a>
+  <a href="#" class="fab fa-twitter"></a>
+  <a href="#" class="fab fa-instagram"></a>
+</div>
+        </div>
+      </footer>
+  <!--script-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>
+
